@@ -11,12 +11,12 @@ header {
     height: 50px;
     margin: 0 auto;
     display: flex;
-    justify-content: right;
+    /* justify-content: space-between; */
     align-items: center;
 }
 .header-top ul {
     display: flex;
-    justify-content: space-between; /*정렬이 안됨...*/
+    justify-content: space-between;
     list-style-type: none;
 }
 .header-top ul li {
