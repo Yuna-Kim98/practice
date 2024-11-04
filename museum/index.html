@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>국립중앙박물관</title>
-    <link rel="stylesheet" href="/practice/museum/css/common.css">
-    <link rel="stylesheet" href="/practice/museum/css/museum.css">
+    <!-- <link rel="stylesheet" href="/practice/museum/css/common.css">
+    <link rel="stylesheet" href="/practice/museum/css/museum.css"> -->
+    <script src="https://kit.fontawesome.com/f74b439d76.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header -->
     <iframe src="/practice/museum/header.html" frameborder="0" width="100%"></iframe>
 
     <!-- content -->
-    <div><!-- main -->
-        <div><!--visual contents-->
+    <div class="content_wrap"><!-- main -->
+        <div class="visual content">
             <img src="/practice/museum/images/main_img.png" alt="visual-contents">
         </div>
-        <div><!--관람시간 ~ 예약하기 / main content1 -->
-            <ul>
-                <li><!--관람시간 / div로 대체 가능?-->
+
+        <!--수정 필요-->
+        <div class="main-section1"><!--관람시간 ~ 예약하기 -->
+            <ul class="main-section1-notice">
+                <li class="section1-notice-time"><!--관람시간 / div로 대체 가능?-->
+                    <i class="fa-regular fa-clock"></i>
                     <strong>관람시간</strong>
                     <ul>
                         <div>
@@ -28,7 +32,8 @@
                         </div>
                     </ul>
                 </li>
-                <li><!--관람료-->
+                <li class="section1-notice-charge"><!--관람료-->
+                    <i class="fa-solid fa-wallet"></i>
                     <strong>관람료</strong>
                     <ul>
                         <div>
@@ -37,24 +42,28 @@
                     </ul>
                 </li>
             </ul>
-            <div><!--오시는길, 예약하기-->
-                <ul>
-                    <li><a href="#" target="_blank">오시는길</a></li>
-                    <li><a href="#" target="_blank">예약하기</a></li>
-                </ul>
+            <ul class="main-section1-notice"><!--오시는길, 예약하기-->
+                <li><a class="section1-notice-map" href="#" target="_blank">오시는길</a></li>
+                <li><a class="section1-notice-map" href="#" target="_blank">예약하기</a></li>
             </div>
         </div>
-        <div><!--전시 / main content2 -->
-            <div>
-                <strong>전시</strong>
-                <button>swipe button</button><!--임시-->
+        <!-- 수정 필요 -->
+
+        <div class="main-section2"><!--전시 -->
+            <div class="main-section2-title">
+                <strong class="main-section-title">전시</strong>
+                <ul class="main-section2-swipe">
+                    <li><a class="section2-swipe-item" href=""><i class="fa-solid fa-chevron-left"></i></a></li>
+                    <li><a class="section2-swipe-item" href=""><i class="fa-solid fa-pause"></i></a></li>
+                    <li><a class="section2-swipe-item" href=""><i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
             </div>
-            <div><!--전시 리스트-->
-                <div><!--리스트1-->
-                    <div>
-                        <a href="#" target="_blank"><img src="/practice/museum/images/poster1.jpg" alt="poster1"></a>
+            <div class="main-section2-exhibit"><!--전시 리스트-->
+                <div class="exhibit-list"><!--리스트1-->
+                    <div class="exhibit-list-poster">
+                        <a class="" href="#" target="_blank"><img class="exhibit-list-poster-img" src="/practice/museum/images/poster1.jpg" alt="poster1"></a>
                     </div>
-                    <div>
+                    <div class="">
                         <span>현재전시</span>
                         <span>특별전</span>
                         <a href="">국보순회전: 모두의 곁으로</a>
@@ -96,7 +105,8 @@
                 </div>
             </div>
             <div><!--알립니다 / main content3-->
-                <div>
+                <div class="main-section-title">
+                    <i class="fa-solid fa-microphone"></i>
                     <strong>알립니다</strong>
                 </div>
                 <div><!--알림 ~ 보도자료-->
