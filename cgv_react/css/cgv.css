@@ -1,0 +1,227 @@
+/******************************************
+* title: header style
+* author: yuna
+* final date : 2025/01/12
+*******************************************/
+
+/* header */
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-top {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+/* header top */
+.header-top {
+  padding: 30px 6px 25px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top-logo img {
+  width: 117px;
+  position: relative;
+}
+
+.header-top-logo span {
+  position: absolute;
+  display: inline-block;
+  top: 60px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.header-top-nav-ad {
+  width: 136px;
+}
+
+.header-top-nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top-nav-li-icon {
+  display: block;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  margin-left: 50px;
+}
+
+.header-top-nav-li-icon + span {
+  position: absolute;
+  width: 70px;
+  margin-left: 34px;
+  text-align: center;
+  color: var(--color-666);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* header bottom */
+.header-bottom {
+  border-top: 1px solid var(--color-light-gray);
+  border-bottom: 2px solid var(--color-red);
+}
+
+.header-bottom-nav-div {
+  width: 1040px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.header-bottom-nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom-nav-li:first-child {
+  padding-left: 0;
+}
+
+.header-bottom-nav-li {
+  padding: 0 20px;
+}
+
+.header-bottom-nav-li > a {
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-bottom-nav-li > dl {
+  display: none;
+}
+
+.header-bottom-search {
+  border-right: 1px solid var(--color-666);
+  border-left: 1px solid var(--color-666);
+  padding: 0 5px;
+}
+
+.header-bottom-search > input {
+  border: none;
+  width: 200px;
+  height: 30px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+
+.header-bottom-search > i {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+/******************************************
+* title: footer style
+* author: yuna
+* final date : 2025/01/12
+*******************************************/
+footer {
+  height: 400px;
+}
+
+.footer-content-ad {
+  background-color: #fff;
+}
+
+.footer-content-ad > div {
+  display: block;
+  text-align: -webkit-center;
+  unicode-bidi: isolate;
+  margin: 0 auto;
+  background-color: #ffbc0d;
+  margin-top: 60px;
+}
+
+.footer-content-ad > div > img { /* 임시 */
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -58px;
+}
+
+.footer-content-wrap {
+  background-color: var(--color-content-bg);
+}
+
+.footer-content-ul, .footer-content-info {
+  width: 1040px;
+  margin: 0 auto;
+
+}
+
+.footer-content-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-ul li {
+  padding: 23px 0;
+}
+
+.footer-content-ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-content-ul li a:hover {
+  text-decoration: underline;
+}
+.footer-content-ul li:nth-child(9) a {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.footer-content-info {
+  padding: 23px 0;
+}
+
+.footer-content-info p {
+  padding: 2px 0;
+  font-size: 12px;
+}
+
+.footer-content-info p:nth-child(2) a {
+  text-decoration: underline;
+}
+
+
+/******************************************
+* title: index style
+* author: yuna
+* final date : 2025/01/
+*******************************************/
+.content-trailer {
+  text-align: center;
+  background-color: #000;
+}
+
+.content-trailer > iframe {
+  width: 1040px;
+  height: 550px;
+}
+
+.content-moviechart {
+  background-color: var(--color-content-bg);
+}
+
+.content-moviechart > div {
+  width: 1040px;
+  margin: 0 auto;
+}

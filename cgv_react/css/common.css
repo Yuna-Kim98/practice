@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;;
+    margin: 0;
+    padding: 0;
+    color: var(--color-222);
+}
+
+/* color list */
+:root {
+    --color-666: #666; /* cgv 로그인 ~ 고객센터 폰트 컬러*/
+    --color-black: #000;
+    --color-222: #222; /*cgv font color*/
+    --color-red: #fb4357;
+    --color-light-gray: #e4e4e4;
+    --color-content-bg: #f8f8f8;
+}
+
+/* 공통 요소 */
+header, footer, content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* 콘텐츠 버튼 */
+.content-btn {
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    padding: 4px 32px 4px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content-btn > i {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 7px;
+}
